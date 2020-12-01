@@ -1,4 +1,3 @@
-import elementpath
 import xml.etree.ElementTree as ET
 
 def finTotalTime():
@@ -49,5 +48,5 @@ def findStreamAddedInYourDestination(path = "",typeFinding="findStreamAddedInYou
         
 
 
-print(findStreamAddedInYourDestination("C:\\Users\\rahimi\\Documents\\1\\mainstream.xml","findStreamAddedInYourDestination"))
-print(findStreamAddedInYourDestination("C:\\Users\\rahimi\\Documents\\1\\mainstream.xml","totalTime"))
+# print(findStreamAddedInYourDestination("C:\\Users\\rahimi\\Documents\\1\\mainstream.xml","findStreamAddedInYourDestination"))
+# print(findStreamAddedInYourDestination("C:\\Users\\rahimi\\Documents\\1\\mainstream.xml","totalTime"))
