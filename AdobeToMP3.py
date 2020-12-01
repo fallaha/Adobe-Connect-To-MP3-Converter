@@ -10,7 +10,7 @@ import tempfile
 import zipfile
 
 if len(sys.argv) != 2:
-    print("USAGE: python mergeAudio.py D:\\path\\to\\directory\\example.zip")
+    print("USAGE: python AdobeToMP3.py D:\\path\\to\\directory\\example.zip")
     exit(0)
 if not os.path.isfile(sys.argv[1]) or not sys.argv[1].endswith(".zip"):
     print("ERROR: %s is not a correct file"%sys.argv[1])
